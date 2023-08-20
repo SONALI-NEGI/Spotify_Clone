@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesom for icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- for spotify iconn on title -->
+    <link rel="icon" href="./assets/logo.png" />
+    <title>Spotify Premium</title>
+    <!-- link from google fonts Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!-- css stylesheet link -->
+    <link rel="stylesheet" href="/Spotify_clone_CSS_FILES/premium.css" />
+  </head>
+  <body>
+    <!-- alert -->
+    <div
+      class="hindi alert alert-primary alert-dismissible fade show"
+      role="alert"
+    >
+      <p class="mx-5"><a href="#">भारत (हिन्दी)</a></p>
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <!-- header -->
+    <header class="d-flex justify-content-between">
+      <!-- logo -->
+      <div class="logo d-flex justify-content-center align-items-center">
+        <i class="fa-brands fa-spotify fs-1 mx-1"></i>
+        <h4 class="my-1"><a href="/Spotify_clone_HTML_FILES/index.html" class="text-light text-decoration-none">Spotify</a></h4>
+      </div>
+      <!-- nav -->
+      <div class="nav d-flex justify-content-center align-items-center">
+        <ul class="d-flex justify-content-center align-items-center">
+          <li><a href="/Spotify_clone_HTML_FILES/premium.html">Premium</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Download</a></li>
+          <li>|</li>
+          <li>
+            <button class="d-flex justify-content-center align-items-center">
+              <div class="pro-icon rounded-circle mx-1">
+                <i class="fa-solid fa-user my-2 fs-6 p-1 m-1"></i>
+              </div>
+              <a href="#">Profile</a>
+              <span class="material-symbols-outlined"> expand_more </span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- sec-1 -->
+    <section
+      class="sec-1 d-flex flex-column justify-content-around align-items-center"
+    >
+      <h1 class="fw-bolder">Get Premium free for 1 month</h1>
+      <h3>
+        Just ₹119/month after. Debit and credit cards accepted. Cancel anytime.
+      </h3>
+      <div>
+        <button class="rounded-pill px-4 py-2 dark">
+          <a href="#">GET STARTED</a>
+        </button>
+        <button class="rounded-pill px-4 py-2 transparent">
+          <a href="#">SEE OTHER PLANS</a>
+        </button>
+      </div>
+      <p>
+        <a href="#">Terms and conditions apply</a> . 1 month free not available
+        for users who have already tried Premium.
+      </p>
+    </section>
+    <!-- sec-2 -->
+    <section
+      class="sec-2 d-flex flex-column justify-content-around align-items-center"
+    >
+      <h2 class="fs-1 fw-bolder text-black">The power of Premium</h2>
+      <ul class="d-flex px-5">
+        <!-- li 1 -->
+        <li
+          class="d-flex flex-column justify-content-between align-items-center"
+        >
+          <div class="image">
+            <img
+              src="https://i.scdn.co/image/ab671c3d0000f4300e79e20edd40577fabe5e126"
+              alt="add free"
+            />
+          </div>
+          <div
+            class="para d-flex flex-column justify-content-center align-items-center"
+          >
+            <p class="fs-4 fw-bold">Ad-free music listening</p>
+            <p>Enjoy uninterrupted music.</p>
+          </div>
+        </li>
+        <!-- li -2 -->
+        <li class="d-flex flex-column align-items-center">
+          <div class="image">
+            <img
+              src="https://i.scdn.co/image/ab671c3d0000f430dc1baa0957b0520c556c86b7"
+              alt="add free"
+            />
+          </div>
+          <div
+            class="para d-flex flex-column justify-content-center align-items-center"
+          >
+            <p class="fs-4 fw-bold">Offline playback</p>
+            <p>Save your data by listening offline.</p>
+          </div>
+        </li>
+        <!-- li -3 -->
+        <li class="d-flex flex-column align-items-center">
+          <div class="image">
+            <img
+              src="https://i.scdn.co/image/ab671c3d0000f430d6fee826d3ece1216e4f5772"
+              alt="add free"
+            />
+          </div>
+          <div
+            class="para d-flex flex-column justify-content-center align-items-center"
+          >
+            <p class="fs-4 fw-bold">Play everywhere</p>
+            <p>Listen on your speakers, TV, and other favorite devices.</p>
+          </div>
+        </li>
+        <!-- li -4 -->
+        <li class="d-flex flex-column align-items-center">
+          <div class="image">
+            <img
+              src=" https://i.scdn.co/image/ab671c3d0000f4309977c2dc20e8cd1aaf755ba2"
+              alt="add free"
+            />
+          </div>
+          <div
+            class="para d-flex flex-column justify-content-center align-items-center"
+          >
+            <p class="fs-4 fw-bold">Pay your way</p>
+            <p>Prepay with Paytm, UPI, and more.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- article -->
+    <article class="d-flex justify-content-center align-items-center ">
+      <div class="article-content d-flex flex-column justify-content-start align-items-center">
+        <h2 class="fs-1 fw-bolder text-black">Pick your Premium</h2>
+        <h3 class="text-black">Listen without limits on your phone, speaker, and other devices.</h3>
+        <div class="pay-mode d-flex flex-row justify-content-center">
+          <img src="https://content-tooling.spotifycdn.com/images/b33cabea-d074-4f4f-8714-da6bdb2f067f_upi.svg" alt="UPI">
+          <img src="https://content-tooling.spotifycdn.com/images/ea750340-f556-4682-b84c-326269cdd4bc_paytm.svg" alt="Paytm">
+          <img src="https://content-tooling.spotifycdn.com/images/e549bf16-2051-43ac-b4d6-c5b8d7bf100d_visa.svg" alt="visa">
+          <img src="https://content-tooling.spotifycdn.com/images/6d693019-628b-45b8-96ca-e3c294aed6aa_mastercard.svg" alt="master-card">
+          <img src="https://content-tooling.spotifycdn.com/images/468706f2-62af-48e4-80cb-9616b011f6c6_amex.svg" alt="amex">
+          <img src="https://content-tooling.spotifycdn.com/images/13ab56f9-bcc3-414e-b8ff-6cf692a5ae0c_diners.svg" alt="diners">
+        </div>
+        <div class="card-holder d-flex flex-row ">
+          <!-- card - 1 -->
+          <div class="card shadow">
+            <div class="people">
+              <h3>Mini</h3>
+              <p>From ₹7/day</p>
+              <p>1 account on mobile only</p>
+              
+            </div>
+            <ul class="offers list-unstyled">
+              
+            <hr>
+              <li>Ad-free music listening on mobile</li>
+              <li>Group Session</li>
+              <li>Download 30 songs on 1 mobile device</li>
+            </ul>
+            <div class="buttons d-flex flex-column">
+              <button class="my-1 rounded-pill bg-dark p-2"><a href="#" class="text-light fw-medium text-decoration-none">1 week for ₹25</a></button>
+              <button class="my-1 rounded-pill bg-white p-2 "><a href="#" class="text-black fw-medium text-decoration-none">1 day for ₹7</a></button>
+            </div>
+            <div class="offers">
+              <p class="time-offer"><a href="#" class=" text-black opacity-75"></a>Terms and conditions apply.</a></p>
+            </div>
+          </div>
+          <!-- card - 2 -->
+          <div class="card shadow">
+            <div class="people">
+              <button class="btn btn-primary free-month">1 month free</button>
+              <h3>Individual</h3>
+              <p>₹119/month after offer period</p>
+              <p>1 account</p>
+              
+            </div>
+            <ul class="offers list-unstyled">
+              
+            <hr>
+              <li>Ad-free music listening </li>
+              <li>Group Session</li>
+              <li>Download 10k songs/device on 5 devices</li>
+            </ul>
+            <div class="buttons d-flex flex-column">
+              <button class="my-1 rounded-pill bg-dark p-2"><a href="#" class="text-light fw-medium text-decoration-none">Subscribe</a></button>
+              <button class="my-1 rounded-pill bg-white p-2 "><a href="#" class="text-black fw-medium text-decoration-none">One-time Payment</a></button>
+            </div>
+            <div class="offers">
+              <p class="time-offer"><a href="#" class=" text-black opacity-75"></a>Terms and conditions apply.</a> 1 month free not available for users who have already tried Premium.</p>
+            </div>
+          </div>
+          <!-- card - 3 -->
+          <div class="card shadow">
+            <div class="people">
+              <button class="btn btn-primary free-month">1 month free</button>
+              <h3>Duo</h3>
+              <p>₹149/month after offer period</p>
+              <p>2 account</p>
+              
+            </div>
+            <ul class="offers list-unstyled">
+              
+            <hr>
+              <li>For couples who live together</li>
+              <li>Ad-free music listening </li>
+              <li>Group Session</li>
+              <li>Download 10k songs/device on 5 devices</li>
+            </ul>
+            <div class="buttons d-flex flex-column">
+              <button class="my-1 rounded-pill bg-dark p-2"><a href="#" class="text-light fw-medium text-decoration-none">Subscribe</a></button>
+              <button class="my-1 rounded-pill bg-white p-2 "><a href="#" class="text-black fw-medium text-decoration-none">One-time Payment</a></button>
+            </div>
+            <div class="offers">
+              <p class="time-offer"><a href="#" class=" text-black opacity-75"></a>Terms and conditions apply.</a> 1 month free not available for users who have already tried Premium.</p>
+            </div>
+          </div>
+          
+          <!-- card - 4 -->
+          <div class="card shadow ">
+            <div class="people">
+              <button class="btn btn-primary free-month">1 month free</button>
+              <h3>Family</h3>
+              <p>₹179/month after offer period</p>
+              <p>Up to 6 accounts</p>
+              <hr>
+            </div>
+           
+            <ul class="offers list-unstyled">
+            
+              <li>For family who live together</li>
+              <li>Block explicit music</li>
+              <li>Ad-free music listening on mobile</li>
+              <li>Group Session</li>
+              <li>Download 30 songs on 1 mobile device</li>
+            </ul>
+            <div class="butons d-flex flex-column">
+              <button class="my-1 rounded-pill bg-dark p-2"><a href="#" class="text-light fw-medium text-decoration-none">Subscribe</a></button>
+              <button class="my-1 rounded-pill bg-white p-2 "><a href="#" class="text-black fw-medium text-decoration-none">One-time Payment</a></button>
+            </div>
+            <div class="offers">
+              <p class="time-offer"><a href="#" class=" text-black opacity-75">Terms and conditions apply.</a> 1 month free not available for users who have already tried Premium.</p>
+            </div>
+          </div>
+        </div>
+        <ul class="bg-white border border-light-subtle rounded d-flex p-2  my-4 shadow" >
+          <li><h3 class="text-black fw-bolder p-2">Special discount for eligible students in university</h3></li>
+        <button class="rounded-pill bg-white border border-black p-2"><a href="#">Learn more</a></button>
+        </ul>
+      </div>
+    </article>
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

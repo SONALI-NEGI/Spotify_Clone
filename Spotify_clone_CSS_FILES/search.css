@@ -1,0 +1,275 @@
+@import url(/Spotify_clone_CSS_FILES/style.css);
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  background: #000;
+  color: #ffff;
+  overflow: hidden;
+}
+
+
+/* search CSS STARTS HERE */
+.search{
+  /* border: 1px solid red; */
+  background-color: #232323;
+  border-radius: 1rem;
+  width: 35%;
+  height: 2.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 20rem;
+  opacity: 0.7;
+  
+}
+.search:hover{
+  opacity: 1;
+}
+.search:hover{
+  border: 1px solid grey;
+}
+.search i{
+border-radius: 1rem;
+  font-size: 1rem;
+ margin: 0 0.75rem;
+
+ 
+}
+
+.search input{
+  border: none;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #232323;
+  width: 90%;
+  height: 80%;
+  color: white;
+  outline: none;
+ 
+}
+.search input::placeholder{
+  color: white;
+  
+  
+}
+/* main-content cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  background-color: #181818;
+  width: 180px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  line-height: 0.5rem;
+}
+.weekly-episode-img{
+  position: relative;
+  top: 0.25rem;
+  bottom: 4rem;
+  width: 100%;
+  height: 70%;
+  border-radius: 0.25rem;
+}
+.card p{
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+.card-1 {
+  background-color: rgb(225, 51, 0);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-img {
+  position: relative;
+  left: 6.5rem;
+  top: 1rem;
+  width: 50%;
+
+  transform: rotate(30deg);
+}
+
+.card-2 {
+  background-color: rgb(115, 88, 255);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-3 {
+  background-color: rgb(30, 50, 100);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-4 {
+  background-color: rgb(232, 17, 91);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-5 {
+  background-color: rgb(233, 20, 41);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-6 {
+  background-color: rgb(176, 40, 151);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-7 {
+  background-color: rgb(165, 103, 82);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-8 {
+  background-color: rgb(216, 64, 0);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-9 {
+  background-color: rgb(141, 103, 171);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-10 {
+  background-color: rgb(20, 138, 8);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-11 {
+  background-color: rgb(233, 20, 41);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-12 {
+  background-color: rgb(176, 40, 151);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-13 {
+  background-color: rgb(230, 30, 50);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-14 {
+  background-color: rgb(141, 103, 171);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-15 {
+  background-color: rgb(225, 17, 140);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+/* podcast 3 more cards starts here */
+.card-16 {
+  background-color: rgb(96, 129, 9);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-17 {
+  background-color: rgb(83, 122, 161);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+.card-18 {
+  background-color: rgb(175, 40, 150);
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+/* search and podcast CSS ENDS HERE */

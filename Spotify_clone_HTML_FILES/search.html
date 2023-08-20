@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesom for icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- for spotify iconn on title -->
+    <link rel="icon" href="/Spotify_clone_Images/assets/logo.png" />
+    <title>Spotify - Search</title>
+    <!-- link from google fonts Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!-- css stylesheet link -->
+    <link rel="stylesheet" href="/Spotify_clone_CSS_FILES/search.css" />
+     <!-- jquery cdn link -->
+     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <div class="main">
+     <!-- sidebar -->
+       <!-- music-player /footer of webpage -->
+       <div id="layout"></div>
+       <script> 
+         $(function(){
+           $("#layout").load("layout.html"); 
+         });
+         </script>
+      
+      
+      <!-- main content -->
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img src="/Spotify_clone_Images/assets/backward_icon.png" alt="backward_icon" />
+            <img
+              src="/Spotify_clone_Images/assets/forward_icon.png"
+              alt="forward_icon"
+              class="hide"
+            />
+          </div>
+          <div class="search hide">
+            <i class="fa-solid fa-magnifying-glass "></i>
+                <input type="text" placeholder="What do you want to listen to?" >
+            
+          </div>
+          <div class="sticky-nav-options">
+            <!-- <button class="badge nav-item hide">Explore Premium</button> -->
+            <button class="badge nav-item dark-badge">
+              <i class="fa-regular fa-circle-down" style="margin-right: 5px"></i
+              > <a href="/Spotify_clone_HTML_FILES/install.html"> Install App </a>
+            </button>
+            <i class="fa-regular fa-user nav-item"></i>
+          </div>
+        </div>
+
+        <h2>Browse all</h2>
+        <a href="/Spotify_clone_HTML_FILES/podcast.html">
+        <div class="cards-container">
+          <div class="card-1">
+            <h2>Podcasts</h2>
+            <img
+              src="https://i.scdn.co/image/ab6765630000ba8a9417936d038e7a2f8dee2554"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+        </a>
+
+          <div class="card-2">
+            <h2>Live Events</h2>
+            <img
+              src="https://concerts.spotifycdn.com/images/live-events_category-image.jpg"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-3">
+            <h2>Made For You</h2>
+            <img
+              src="https://t.scdn.co/images/ea364e99656e46a096ea1df50f581efe"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-4">
+            <h2>New releases</h2>
+            <img
+              src="https://i.scdn.co/image/ab67706f000000027ea4d505212b9de1f72c5112"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-5">
+            <h2>Hindi</h2>
+            <img
+              src="https://i.scdn.co/image/ab67fb8200005cafd6daeecb3d85e27295be6557"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-6">
+            <h2>Punjabi</h2>
+            <img
+              src="https://i.scdn.co/image/ab67706f00000002461fda205f5f952eff8bae70"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-7">
+            <h2>Tamil</h2>
+            <img
+              src="https://i.scdn.co/image/ab67fb8200005caf4b3beede484da74b233fa299"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-8">
+            <h2>Telugu</h2>
+            <img
+              src="https://i.scdn.co/image/ab67fb8200005caf2c7a9278e6df9a35f3865cae"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-9">
+            <h2>Chaets</h2>
+            <img
+              src="https://charts-images.scdn.co/assets/locale_en/regional/weekly/region_global_default.jpg"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-10">
+            <h2>Pop</h2>
+            <img
+              src="https://i.scdn.co/image/ab67fb8200005cafa862ab80dd85682b37c4e768"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-11">
+            <h2>Indie</h2>
+            <img
+              src="https://i.scdn.co/image/ab67fb8200005cafa1a252e3a815b65778d8c2aa"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-12">
+            <h2>Trending</h2>
+            <img
+              src="https://i.scdn.co/image/ab67fb8200005caf1867113f5218598847550acd"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-13">
+            <h2>Love</h2>
+            <img
+              src="https://i.scdn.co/image/ab67fb8200005cafb03c6f8e7efca2ae36f41b31"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-14">
+            <h2>Discover</h2>
+            <img
+              src="https://t.scdn.co/images/d0fb2ab104dc4846bdc56d72b0b0d785.jpeg"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-15">
+            <h2>Mood</h2>
+            <img
+              src="https://i.scdn.co/image/ab67fb8200005caf271f9d895003c5f5561c1354"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-16">
+            <h2>Party</h2>
+            <img
+              src="https://i.scdn.co/image/ab67fb8200005cafcbf80f8ea695536eace4fd2c"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+        </div>
+        <div class="main-footer">
+          <div class="top-links">
+            <div class="company-links">
+              <ul>
+                <h4>Company</h4>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">For the Record</a></li>
+              </ul>
+            </div>
+            <div class="Communities-links">
+              <ul>
+                <h4>Communities</h4>
+                <li><a href="#">For Artists</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Vendors</a></li>
+                <li><a href="#">Spotify for Work</a></li>
+              </ul>
+            </div>
+            <div class="useful-links">
+              <ul>
+                <h4>Useful links</h4>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Free Mobile App</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-container">
+            <button>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </button>
+            <button>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </button>
+            <button>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </button>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+          <div class="footer-links">
+            <div class="links">
+              <ul>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy Center</a></li>
+                <li><a href="#">Privacy Policy </a></li>
+                <li><a href="#">Cookies </a></li>
+                <li><a href="#">About Ads </a></li>
+                <li><a href="#">Accessibility </a></li>
+              </ul>
+            </div>
+            <div class="copyright">© 2023 Spotify AB</div>
+          </div>
+        </div>
+      </div>
+      <!-- music-player -->
+      
+    </div>
+  </body>
+</html>

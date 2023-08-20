@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesom for icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- for spotify iconn on title -->
+    <link rel="icon" href="/Spotify_clone_Images/assets/logo.png" />
+    <title>Spotify - Download for Desktop</title>
+    <!-- link from google fonts Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!-- css stylesheet link -->
+    <link rel="stylesheet" href="/Spotify_clone_CSS_FILES/style.css" />
+     <!-- jquery cdn link -->
+     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <div class="main">
+       <!-- sidebar -->
+       <!-- music-player /footer of webpage -->
+      <div id="layout"></div>
+      <script> 
+        $(function(){
+          $("#layout").load("layout.html"); 
+        });
+        </script>
+     
+     
+      <!-- main content -->
+      <div class="main-content">
+        <div class="sticky-nav">
+           
+          <div class="sticky-nav-icons">
+            <img src="/Spotify_clone_Images/assets/backward_icon.png" alt="backward_icon" />
+            <img
+              src="/Spotify_clone_Images/assets/forward_icon.png"
+              alt="forward_icon"
+              class="hide"
+            />
+          </div>
+        
+        
+          <div class="sticky-nav-options">
+            <button class="badge nav-item hide text"><a href="/Spotify_clone_HTML_FILES/premium.html">Explore Premium</a> </button>
+            <button class="badge nav-item dark-badge">
+              <i class="fa-regular fa-circle-down" style="margin-right: 5px"></i
+              ><a href="/Spotify_clone_HTML_FILES/install.html"> Install App </a>
+            </button>
+            <i class="fa-regular fa-user nav-item"></i>
+          </div>
+        </div>
+        <!-- install starts here-->
+        <div class="install-page">
+          <img
+            src="https://open.spotifycdn.com/cdn/images/devices/mac.3fbeb8c6.png"
+            alt="install images"
+            class="install-img"
+          />
+
+          <p class="install-text">
+            Seamlessly listen to music you love. Download the Spotify app for
+            your computer.
+          </p>
+          <button class="install-btn">Get our free app</button>
+        </div>
+        <div class="main-footer">
+          <div class="top-links">
+            <div class="company-links">
+              <ul>
+                <!-- intall html ends here -->
+                <h4>Company</h4>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">For the Record</a></li>
+              </ul>
+            </div>
+            <div class="Communities-links">
+              <ul>
+                <h4>Communities</h4>
+                <li><a href="#">For Artists</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Vendors</a></li>
+                <li><a href="#">Spotify for Work</a></li>
+              </ul>
+            </div>
+            <div class="useful-links">
+              <ul>
+                <h4>Useful links</h4>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Free Mobile App</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="social-container">
+            <button>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </button>
+            <button>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </button>
+            <button>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </button>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+          <div class="footer-links">
+            <div class="links">
+              <ul>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy Center</a></li>
+                <li><a href="#">Privacy Policy </a></li>
+                <li><a href="#">Cookies </a></li>
+                <li><a href="#">About Ads </a></li>
+                <li><a href="#">Accessibility </a></li>
+              </ul>
+            </div>
+            <div class="copyright">© 2023 Spotify AB</div>
+          </div>
+        </div>
+      </div>
+     <!-- music-player -->
+       
+    </div>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  /* background: #000; */
+  color: #ffff;
+  /* overflow: hidden; */
+}
+/* alert */
+.hindi {
+  background: #1d75de;
+  height: 53px;
+
+  margin: 0px;
+}
+.hindi a {
+  color: #ffff;
+}
+/* header */
+header{
+    background: #000;
+    height: 80px;
+    width: 100%;
+}
+/* logo */
+ .logo{
+    height: 80px;
+    width: 20%;
+ }
+ .nav{
+    height: 80px;
+    width: 50%;
+ }
+ .nav ul{
+    height: 80px;
+ }
+.nav li{
+    list-style: none;
+    margin-right: 2rem ;
+}
+.nav li a{
+    color: #ffff;
+    text-decoration: none;
+}
+.nav li button{
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.pro-icon{
+border: 1px solid white;
+/* border-radius: 50%; */
+}
+
+.nav li a:hover{
+    color: #1ed760;
+}
+/* section */
+/* sec-1 */
+.sec-1{
+    height: 480px;
+    width: 100%;
+    background: #1d75de;
+
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+.sec-1 a{
+    color: white;
+    text-decoration: none;
+}
+
+.dark{
+    background-color: #0f0c0c;
+    border: none;
+    height: 52px;
+    
+}
+.dark:hover{
+    background-color:  #000 ;
+    font-weight: 600;
+}
+
+.transparent {
+    background-color: transparent;
+    height: 52px;
+    border: 2px solid white;
+}
+.transparent:hover{
+    background-color:  #175DB1 ;
+    font-weight: 600;
+}
+
+/* sec-2 */
+.sec-2{
+    height: 580px;
+    /* background: #000; */
+    width: 100%;
+}
+.sec-2 ul{
+    height: 320px;
+    
+}
+.sec-2 ul li{
+    height: 142;
+    width: 25%;
+  font-size: 1rem;
+    padding: 1rem;
+    color: #000;
+}
+.image {
+    height: 60%;
+}
+.image img {
+    height: 80%;
+    
+}
+.para  {
+    height: 40%;
+    
+}
+
+article{
+    height: 1000px;
+    width: 100%;
+    background-color: #efefef;
+}
+.article-content{
+    
+    width: 80%;
+}
+.pay-mode img{
+height: 1.3rem;
+}
+.card-holder{
+    width: 100%;
+    
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  font-weight: 500;
+   height: 40rem;
+   width: 25% ;
+   border-radius: 1rem;
+   margin-top: 2rem;
+   margin-right: 0.5rem;
+   /* justify-content: flex-start; */
+   
+}
+.people{
+      display: flex;
+    flex-direction: column;
+    height: 15rem;
+}
+.card ul{
+  display: flex;
+    flex-direction: column;
+    height: 20rem;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+}
+.offers{
+    height: 5rem;
+}
+
+.free-month{
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.card button:hover{
+    font-size: 1.1rem;
+}
+
+.offers li::before{
+    content: '✓  ';
+}
+
+.time-offer{
+    font-size: 0.75rem;
+}

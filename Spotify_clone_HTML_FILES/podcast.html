@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font awesom for icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- for spotify iconn on title -->
+    <link rel="icon" href="/Spotify_clone_Images/assets/logo.png" />
+    <title>Spotify - Podcasts</title>
+    <!-- link from google fonts Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <!-- css stylesheet link -->
+    <link rel="stylesheet" href="/Spotify_clone_CSS_FILES/search.css" />
+    <!-- jquery cdn link -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <div class="main">
+       <!-- sidebar -->
+       <!-- music-player /footer of webpage -->
+       <div id="layout"></div>
+       <script> 
+         $(function(){
+           $("#layout").load("layout.html"); 
+         });
+         </script>
+
+       
+      <!-- main content -->
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <a href="/Spotify_clone_HTML_FILES/podcast.html">
+            <img src="/Spotify_clone_Images/assets/backward_icon.png" alt="backward_icon" />
+          </a>
+            <img
+              src="/Spotify_clone_Images/assets/forward_icon.png"
+              alt="forward_icon"
+              class="hide"
+            />
+          </div>
+          <div class="search hide">
+            <i class="fa-solid fa-magnifying-glass "></i>
+                <input type="text" placeholder="What do you want to listen to?" >
+            
+          </div>
+          <div class="sticky-nav-options">
+            <!-- <button class="badge nav-item hide">Explore Premium</button> -->
+            <button class="badge nav-item dark-badge">
+              <i class="fa-regular fa-circle-down" style="margin-right: 5px"></i
+              > <a href="/Spotify_clone_HTML_FILES/install.html"> Install App </a>
+            </button>
+            <i class="fa-regular fa-user nav-item"></i>
+          </div>
+        </div>
+        
+        <h2> Best episodes of the week</h2>
+        <!-- 1 -->
+        <div class="cards-container">
+        <div class="card">
+            
+            <img
+              src="https://i.scdn.co/image/ab67656300005f1fe3aaa6e2894685175d73eaae"
+              alt="card1img"
+              class="weekly-episode-img"
+            />
+           
+            <h4>S2 Episode 01: Bh..</h4>
+            <p>Jul 3
+             ·
+            21 min</p>
+          </div>
+          <!-- 2 -->
+        <div class="card">
+            
+            <img
+              src="https://i.scdn.co/image/ab67656300005f1faa4830256e4b613f07287208"
+              alt="card1img"
+              class="weekly-episode-img"
+            />
+           
+            <h4>Science-Support..</h4>
+            <p>Jul 3
+             ·
+            96 min</p>
+          </div>
+          <!-- 3 -->
+        <div class="card">
+            
+            <img
+              src="https://i.scdn.co/image/ab67656300005f1fc087efb49e42f25ed9014067"
+              alt="card1img"
+              class="weekly-episode-img"
+            />
+           
+            <h4>Digital Star Bhuvan...</h4>
+            <p>Jun 29
+             ·
+            36 min</p>
+          </div>
+          <!-- 4 -->
+        <div class="card">
+            
+            <img
+              src="https://i.scdn.co/image/ab67656300005f1ff1d2a2a09bc9d760fe45aa48"
+              alt="card1img"
+              class="weekly-episode-img"
+            />
+           
+            <h4>Ep #6 | WTF is Heal..</h4>
+            <p>Jul 2
+             ·
+            126 min</p>
+          </div>
+         
+        </div>
+      
+
+        <!-- Fresh finds -->
+        <h2>Fresh Finds</h2>
+        <div class="cards-container">
+            <!-- fresh finds 1 -->
+            <div class="card">
+            
+                <img
+                src="https://i.scdn.co/image/ab67656300005f1ffb6aaad1ebf4a04217165d03"
+                alt="card1img"
+                class="weekly-episode-img"
+              />
+                
+               
+                <h4>Zero Zero Saath 	&#40;A ..</h4>
+                <p>Spotify Studios </p>
+              
+              </div>
+              <!-- fresh finds 2 -->
+            <div class="card">
+            
+                <img
+                src="https://i.scdn.co/image/ab67656300005f1f6acd4060ee0ad1e5e4b8330c"
+                alt="card1img"
+                class="weekly-episode-img"
+              />
+               
+                <h4>Techtonic Shift</h4>
+                <p>Frontpage Media Studios </p>
+              
+              </div>
+              <!-- fresh finds 3 -->
+            <div class="card">
+            
+                <img
+                  src="https://i.scdn.co/image/ab67656300005f1f98191370fe033b358c1727d8"
+                  alt="card1img"
+                  class="weekly-episode-img"
+                />
+               
+                <h4>Food From Here a...</h4>
+                <p>Maed in India </p>
+              
+              </div>
+              <!-- fresh finds 4 -->
+            <div class="card">
+            
+                <img
+                  src="https://i.scdn.co/image/ab67656300005f1f402448abacbb707becff920b"
+                  alt="card1img"
+                  class="weekly-episode-img"
+                />
+               
+                <h4>The Retrievals</h4>
+                <p>Serial Productions & The N... </p>
+              
+              </div>
+
+        </div>
+        <!-- Categories -->
+        <h2>Categories</h2>
+        <a href="/Spotify_clone_HTML_FILES/podcast.html">
+        <div class="cards-container">
+          <div class="card-1">
+            <h2>Podcast Charts</h2>
+            <img
+              src="https://t.scdn.co/images/7262179db37c498480ef06bfacb60310.jpeg"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+        </a>
+
+          <div class="card-2">
+            <h2>Podcast New Releases </h2>
+            <img
+              src="https://t.scdn.co/images/209c867f5bb34076b0dcc9deeb1868e6"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-3">
+            <h2>Video Podcasts</h2>
+            <img
+              src="https://i.scdn.co/image/9af79fd06e34dea3cd27c4e1cd6ec7343ce20af4"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-4">
+            <h2>Tamil Podcasts</h2>
+            <img
+              src="https://i.scdn.co/image/ab6765630000ba8a52bceb72a0bfb01e13307170"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-5">
+            <h2>Self-help & Motivation</h2>
+            <img
+              src="https://i.scdn.co/image/ab67656300005f1f6a25aaedf2c3dd614fb55109"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-6">
+            <h2>Educational</h2>
+            <img
+              src="https://i.scdn.co/image/96b8b3d5b7c1a5ae952c7489406602539ce651c8"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-7">
+            <h2>Devotion & Mythology</h2>
+            <img
+              src="https://i.scdn.co/image/ab6765630000ba8a4d2153e40a1519784f2b1f3c"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-8">
+            <h2>Stories</h2>
+            <img
+              src="https://i.scdn.co/image/ab6765630000ba8ad67aca773e6929c69a4102ba"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-9">
+            <h2>Love & Relationships</h2>
+            <img
+              src="https://i.scdn.co/image/ab6765630000ba8acf45bab65eff11e08f59fba5"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-10">
+            <h2>Horror</h2>
+            <img
+              src="https://i.scdn.co/image/ab6765630000ba8a5880b0ecef141e7e375f6b70"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-11">
+            <h2>News & Politics</h2>
+            <img
+              src="https://i.scdn.co/image/ab67656300005f1f64f4d06cbd669c7c34b450d4"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-12">
+            <h2>Arts and Entertainment</h2>
+            <img
+              src="https://i.scdn.co/image/ab6765630000ba8a1dac43d7c6cea1000f288c62"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-13">
+            <h2>Business & Technology</h2>
+            <img
+              src="https://i.scdn.co/image/e227cd9674618024276c65f1213fb05af34cf512"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-14">
+            <h2>History</h2>
+            <img
+              src="https://i.scdn.co/image/ab6765630000ba8ab5a180ae9ca4b7527ac8755e"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-15">
+            <h2>Comedy</h2>
+            <img
+              src="https://i.scdn.co/image/ab67656300005f1fdf89250cb544af55cc4d24dd"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+
+          <div class="card-16">
+            <h2>Sports</h2>
+            <img
+              src="https://i.scdn.co/image/ab67656300005f1f1050ec6ef01dcd6c7b1c3ab8"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+          <div class="card-17">
+            <h2>Music</h2>
+            <img
+              src="https://i.scdn.co/image/68b89ec66372a76872730e3027ed989b0076c928"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+          <div class="card-18">
+            <h2>Books</h2>
+            <img
+              src="https://i.scdn.co/image/ab6765630000ba8a123ec189f56c9571a1b7689f"
+              alt="card1img"
+              class="card-img"
+            />
+          </div>
+        </div>
+        <div class="main-footer">
+            <div class="top-links">
+              <div class="company-links">
+                <ul>
+                  <h4>Company</h4>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="#">For the Record</a></li>
+                </ul>
+              </div>
+              <div class="Communities-links">
+                <ul>
+                  <h4>Communities</h4>
+                  <li><a href="#">For Artists</a></li>
+                  <li><a href="#">Developers</a></li>
+                  <li><a href="#">Advertising</a></li>
+                  <li><a href="#">Investors</a></li>
+                  <li><a href="#">Vendors</a></li>
+                  <li><a href="#">Spotify for Work</a></li>
+                </ul>
+              </div>
+              <div class="useful-links">
+                <ul>
+                  <h4>Useful links</h4>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Free Mobile App</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="social-container">
+              <button>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </button>
+              <button>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              </button>
+              <button>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </button>
+            </div>
+          </div>
+        <div class="footer">
+          <div class="line"></div>
+          <div class="footer-links">
+            <div class="links">
+              <ul>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Privacy Center</a></li>
+                <li><a href="#">Privacy Policy </a></li>
+                <li><a href="#">Cookies </a></li>
+                <li><a href="#">About Ads </a></li>
+                <li><a href="#">Accessibility </a></li>
+              </ul>
+            </div>
+            <div class="copyright">© 2023 Spotify AB</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- music-player -->
+      
+    </div>
+  </body>
+</html>
